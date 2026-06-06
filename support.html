@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support – LockInPro</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0b0f1a;
+      color: #e2e8f0;
+      line-height: 1.7;
+      padding: 0 16px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 60px 0 100px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px;
+      height: 72px;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      border-radius: 18px;
+      margin-bottom: 20px;
+    }
+
+    .logo svg { width: 36px; height: 36px; fill: #fff; }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #94a3b8;
+      font-size: 0.95rem;
+    }
+
+    section {
+      background: #131929;
+      border: 1px solid #1e2d45;
+      border-radius: 16px;
+      padding: 28px 32px;
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #818cf8;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 14px;
+    }
+
+    p { color: #cbd5e1; font-size: 0.97rem; margin-bottom: 12px; }
+    p:last-child { margin-bottom: 0; }
+
+    .faq-item { margin-bottom: 20px; }
+    .faq-item:last-child { margin-bottom: 0; }
+
+    .faq-q {
+      font-weight: 600;
+      color: #e2e8f0;
+      margin-bottom: 6px;
+    }
+
+    .faq-a { color: #94a3b8; font-size: 0.95rem; }
+
+    .contact-btn {
+      display: inline-block;
+      margin-top: 8px;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 0.97rem;
+      transition: opacity 0.15s;
+    }
+    .contact-btn:hover { opacity: 0.85; }
+
+    footer {
+      text-align: center;
+      color: #475569;
+      font-size: 0.82rem;
+      margin-top: 40px;
+    }
+
+    footer a { color: #6366f1; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2a5 5 0 0 1 5 5v2h1a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h1V7a5 5 0 0 1 5-5zm0 11a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-9a3 3 0 0 0-3 3v2h6V7a3 3 0 0 0-3-3z"/>
+        </svg>
+      </div>
+      <h1>LockInPro Support</h1>
+      <p class="subtitle">Focus Timer &amp; Goal Tracker</p>
+    </header>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>Have a question, found a bug, or want to share feedback? We'd love to hear from you. Send us an email and we'll get back to you as soon as possible.</p>
+      <a class="contact-btn" href="mailto:wavhudi.mulaudzi@brewstack.tech">Email Support</a>
+    </section>
+
+    <section>
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <p class="faq-q">How do I start a focus session?</p>
+        <p class="faq-a">Tap any active task from the Home screen or All Activities screen, then tap the timer button to begin a timed focus session. A Live Activity will appear on your Lock Screen so you can track progress without unlocking your phone.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">How do streaks work?</p>
+        <p class="faq-a">Your streak increases by 1 for each day you complete at least one focus session. Missing a day resets your streak to 0. Streaks are tracked automatically — no action required on your part.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Can I restore a task I archived?</p>
+        <p class="faq-a">Yes. Open the All Activities screen, expand the Archived/Done section, and tap Restore on any archived task. You'll have the option to set a new deadline before restoring it to your active list.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">How do I change my profile photo?</p>
+        <p class="faq-a">Go to the Profile tab and tap your avatar (or the initial letter icon). Select a photo from your library. The image is saved securely to your account and syncs across devices.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Is my data backed up?</p>
+        <p class="faq-a">Yes. All tasks, focus sessions, and profile data are stored in Firebase and tied to your account. Signing in on a new device will restore your data automatically.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">How do I delete my account?</p>
+        <p class="faq-a">Email us at <a href="mailto:wavhudi.mulaudzi@brewstack.tech" style="color:#818cf8;">wavhudi.mulaudzi@brewstack.tech</a> with the subject "Delete My Account" and we will permanently remove your account and all associated data within 30 days.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>What to Include in Your Support Request</h2>
+      <p>To help us resolve your issue quickly, please include:</p>
+      <p>• Your device model and iOS version (Settings → General → About)</p>
+      <p>• App version (Profile tab → bottom of screen)</p>
+      <p>• A short description of what happened and what you expected</p>
+      <p>• Screenshots or screen recordings if possible</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 LockInPro &nbsp;·&nbsp; <a href="index.html">Privacy Policy</a></p>
+    </footer>
+  </div>
+</body>
+</html>
